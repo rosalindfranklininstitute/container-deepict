@@ -1,0 +1,29 @@
+# Copyright 2023 Rosalind Franklin Institute
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+# either express or implied. See the License for the specific
+# language governing permissions and limitations under the License.
+
+
+docker: quay.io/rosalindfranklininstitute/deepict
+url: https://quay.io/rosalindfranklininstitute/deepict
+maintainer: Irene de Teresa, Alex Mattausch, Frosina Stojanovska
+description: Pipeline for the automatic detection and segmentation of particles and cellular structures in 3D Cryo-ET data, based on deep learning (convolutional neural networks).
+latest:
+  v1.0.1-3d-cnn: sha256:f1ed7ec6920c93d10fdcda332bffb6278a1bf83def602537afb03b3dfa70c998
+  v1.0.1-2d-cnn: sha256:db7344e44d868a467ee6beb1955bfafe6bce6dc2c45bfb64c853d744c43c73a4
+tags:
+  v1.0.1-3d-cnn: sha256:f1ed7ec6920c93d10fdcda332bffb6278a1bf83def602537afb03b3dfa70c998
+  v1.0.1-2d-cnn: sha256:db7344e44d868a467ee6beb1955bfafe6bce6dc2c45bfb64c853d744c43c73a4
+features:
+  gpu: true
+aliases:
+  crystfel: /usr/local/deepict/bin/deepict

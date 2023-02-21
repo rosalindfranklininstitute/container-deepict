@@ -1,0 +1,3 @@
+[submodule "DeePiCt"]
+	path = DeePiCt
+	url = https://github.com/ZauggGroup/DeePiCt.git

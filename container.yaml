@@ -18,10 +18,10 @@ url: https://quay.io/rosalindfranklininstitute/deepict
 maintainer: Irene de Teresa, Alex Mattausch, Frosina Stojanovska
 description: Pipeline for the automatic detection and segmentation of particles and cellular structures in 3D Cryo-ET data, based on deep learning (convolutional neural networks).
 latest:
-  v1.0.1-3d-cnn: sha256:f1ed7ec6920c93d10fdcda332bffb6278a1bf83def602537afb03b3dfa70c998
+  v1.0.1-3d-cnn: sha256:c93fd1f87d9311ab83fbad98ea62a9ab50ea24bd3df561dfe94a484a748b7fd1
   v1.0.1-2d-cnn: sha256:db7344e44d868a467ee6beb1955bfafe6bce6dc2c45bfb64c853d744c43c73a4
 tags:
-  v1.0.1-3d-cnn: sha256:f1ed7ec6920c93d10fdcda332bffb6278a1bf83def602537afb03b3dfa70c998
+  v1.0.1-3d-cnn: sha256:c93fd1f87d9311ab83fbad98ea62a9ab50ea24bd3df561dfe94a484a748b7fd1
   v1.0.1-2d-cnn: sha256:db7344e44d868a467ee6beb1955bfafe6bce6dc2c45bfb64c853d744c43c73a4
 features:
   gpu: true

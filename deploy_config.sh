@@ -1,3 +1,4 @@
+#!/bin/bash
 # Copyright 2023 Rosalind Franklin Institute
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,31 +13,6 @@
 # either express or implied. See the License for the specific
 # language governing permissions and limitations under the License.
 
-name: 3d-unet
-channels:
-  - pytorch
-  - bioconda
-  - conda-forge
-  - anaconda
-  - default
-dependencies:
-  - python=3.7
-  - jupyter
-  - imageio
-  - scikit-learn
-  - scikit-image
-  - scipy
-  - numpy
-  - tqdm
-  - pandas
-  - pyaml
-  - pip
-  - h5py==2.10.0
-  - mrcfile==1.1.2
-  - monai
-  - pytorch==1.12.1
-  - torchvision==0.13.1
-  - cudatoolkit=11.6
-  - tensorboardx
-  - crc32c
-  - snakemake==5.13.0
+srcdir=$(dirname ${BASH_SOURCE[0]})
+config_file=$1
+cp "${srcdir}/config.yaml" $(pwd)/"${config_file}"
